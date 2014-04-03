@@ -1,7 +1,9 @@
 {
     // --------------------------------------------------------------------
-    // JSHint Configuration, Strict Edition
+    // JSHint Configuration, Strict Edition (+ a bit)
     // --------------------------------------------------------------------
+    //
+    // Based on strict edition by http://michael.haschke.biz/ with edits by me (@mintyben).
     //
     // This is a options template for [JSHint][1], using [JSHint example][2]
     // and [Ory Band's example][3] as basis and setting config values to
@@ -111,9 +113,6 @@
  
     "maxerr"        : 100,      // Maximum errors before stopping.
     "predef"        : [         // Extra globals.
-        //"exampleVar",
-        //"anotherCoolGlobal",
-        //"iLoveDouglas"
     ],
     "indent"        : 4,        // Specify indentation spacing
     "globals"       : {
@@ -142,7 +141,7 @@
         // Toastr globals,
         "toastr"	: true,
 
-        // XSockets Globals
+        // XSockets globals
         "XSockets"	: true
     }
 }
